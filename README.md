@@ -2,6 +2,8 @@
 
 Quattordici palline cave Ø55 mm per il gatto, ognuna con un sonaglio Ø18 dentro (più grande di ogni foro, quindi non esce). Cinque motivi vengono dalla foto di riferimento, gli altri sono nuovi. Apri **guida.html** per la vista 3D, il montaggio e la lista di stampa.
 
+**Guida di stampa e montaggio:** https://maxeo.github.io/3dprint-guide/palline/guida.html
+
 ## Contenuto
 
 - `guida.html`: istruzioni, parametri di stampa e vista 3D interattiva
