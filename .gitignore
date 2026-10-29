@@ -1,0 +1,5 @@
+# Backup automatici di Blender
+*.blend1
+# Cache Python
+__pycache__/
+*.pyc

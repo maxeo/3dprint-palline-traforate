@@ -1,0 +1,1217 @@
+{
+ "root": "..",
+ "output": "guida.html",
+ "title": "Palline Traforate · Guida",
+ "theme": {
+  "accent": "#e8590c",
+  "viewer_bg": "#1f1b18"
+ },
+ "header": {
+  "eyebrow": "Palline Traforate · giochi per il gatto · PETG",
+  "h1": "Quattordici palline, un sonaglio ciascuna.",
+  "intro_html": "<b>Palline cave Ø55 mm con un sonaglio dentro, da far rotolare al gatto.</b> Cinque motivi vengono dalla foto di riferimento (spirale, Voronoi, anelli, griglia, fessure), gli altri sono nuovi: <b>Zampette</b>, <b>Pesciolini</b>, <b>Stelle</b>, <b>Cuori</b>, <b>Topolini</b>, <b>Lische</b>, <b>Nido d'ape</b>, <b>Elica</b> e <b>Rete</b>. 11 palline sono due metà che si <b>avvitano</b> (collare filettato e madrevite); Voronoi, Elica e Rete sono un <b>pezzo unico</b>, perché il disegno attraversa l'equatore, e il sonaglio si infila durante una pausa di stampa. Il sonaglio Ø18 è più grande di ogni foro, quindi resta dentro.",
+  "facts": [
+   {
+    "value": "Ø55 mm",
+    "label": "pallina"
+   },
+   {
+    "value": "Ø18 mm",
+    "label": "sonaglio, più grande di ogni foro"
+   },
+   {
+    "value": "2 giri",
+    "label": "filetto passo 2,5"
+   },
+   {
+    "value": "20–30 g",
+    "label": "PETG per pallina"
+   }
+  ]
+ },
+ "camera": {
+  "yaw": -0.3,
+  "pitch": 0.75
+ },
+ "caption": "Le quattordici palline montate, in file da quattro. In fondo i motivi della foto, davanti quelli nuovi.",
+ "model_note_html": "<span class='badge'>Quote del modello</span><p>Sfera Ø55, parete 2,4 mm. Il giunto sta 2 mm sotto l'equatore, dove la parete della madrevite resta spessa attorno al filetto. Fori a partire da 7 mm sopra il giunto (madrevite) e 4,5 mm sotto (vite): la fascia attorno al giunto è piena.</p>",
+ "groups": {
+  "Spirale": {
+   "color": "#d6336c"
+  },
+  "Voronoi": {
+   "color": "#c92a2a"
+  },
+  "Anelli": {
+   "color": "#c8a04a"
+  },
+  "Griglia": {
+   "color": "#3b5bdb"
+  },
+  "Fessure": {
+   "color": "#74b816"
+  },
+  "Zampette": {
+   "color": "#f08c00"
+  },
+  "Pesciolini": {
+   "color": "#1c9aa8"
+  },
+  "Stelle": {
+   "color": "#7048e8"
+  },
+  "Cuori": {
+   "color": "#f783ac"
+  },
+  "Topolini": {
+   "color": "#868e96"
+  },
+  "Lische": {
+   "color": "#4dabf7"
+  },
+  "NidoApe": {
+   "color": "#ffd43b"
+  },
+  "Elica": {
+   "color": "#f76707"
+  },
+  "Rete": {
+   "color": "#0ca678"
+  },
+  "Sonaglio": {
+   "color": "#495057"
+  }
+ },
+ "parts": [
+  {
+   "id": "P01A",
+   "label": "Spirale · madrevite",
+   "group": "Spirale",
+   "file": "stl/P01_Spirale_Madrevite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "assembled_bounds": [
+    [
+     -132.5,
+     -77.5
+    ],
+    [
+     -27.5,
+     27.5
+    ],
+    [
+     25.5,
+     55.0
+    ]
+   ],
+   "note_html": "<p>La metà di sopra, con il filetto interno e la svasatura all'imbocco. Dieci fessure a spirale per metà, larghe circa 6 mm, che girano di 90° dal giunto verso il polo. 10,5 g.</p>"
+  },
+  {
+   "id": "P01B",
+   "label": "Spirale · vite",
+   "group": "Spirale",
+   "file": "stl/P01_Spirale_Vite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "matrix": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "assembled_bounds": [
+    [
+     -132.43,
+     -77.57
+    ],
+    [
+     -27.43,
+     27.43
+    ],
+    [
+     0,
+     32.28
+    ]
+   ],
+   "note_html": "<p>La metà di sotto, con il collare filettato, il cono a 45° e la spalla che batte sulla madrevite. Si stampa capovolta, collare sul piatto. 9,8 g.</p>"
+  },
+  {
+   "id": "P02",
+   "label": "Voronoi (pezzo unico)",
+   "group": "Voronoi",
+   "file": "stl/P02_Voronoi.stl",
+   "print": "unici",
+   "mode": "mesh",
+   "max_triangles": 10000,
+   "assembled_bounds": [
+    [
+     -62.46,
+     -7.52
+    ],
+    [
+     -27.5,
+     27.4
+    ],
+    [
+     1.2,
+     55.0
+    ]
+   ],
+   "note_html": "<p>Pezzo unico a celle di Voronoi, come quella rossa della foto: niente vite, il sonaglio entra durante una pausa di stampa. 41 fori, nervature di almeno 2,4 mm, foro più largo 14,8 mm. Sul fondo un piano d'appoggio e una calotta piena per l'adesione. Pausa per il sonaglio a 19,2 mm. 10,7 g di PETG.</p>"
+  },
+  {
+   "id": "P03A",
+   "label": "Anelli · madrevite",
+   "group": "Anelli",
+   "file": "stl/P03_Anelli_Madrevite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "assembled_bounds": [
+    [
+     7.5,
+     62.5
+    ],
+    [
+     -27.5,
+     27.5
+    ],
+    [
+     25.5,
+     55.0
+    ]
+   ],
+   "note_html": "<p>La metà di sopra, con il filetto interno e la svasatura all'imbocco. Quattro file di finestre orizzontali per metà, con le nervature sfalsate di fila in fila: l'effetto a fasce della pallina dorata. 10,4 g.</p>"
+  },
+  {
+   "id": "P03B",
+   "label": "Anelli · vite",
+   "group": "Anelli",
+   "file": "stl/P03_Anelli_Vite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "matrix": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "assembled_bounds": [
+    [
+     7.57,
+     62.43
+    ],
+    [
+     -27.43,
+     27.43
+    ],
+    [
+     0,
+     32.28
+    ]
+   ],
+   "note_html": "<p>La metà di sotto, con il collare filettato, il cono a 45° e la spalla che batte sulla madrevite. Si stampa capovolta, collare sul piatto. 9,5 g.</p>"
+  },
+  {
+   "id": "P04A",
+   "label": "Griglia · madrevite",
+   "group": "Griglia",
+   "file": "stl/P04_Griglia_Madrevite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "assembled_bounds": [
+    [
+     77.5,
+     132.5
+    ],
+    [
+     -27.5,
+     27.5
+    ],
+    [
+     25.5,
+     54.1
+    ]
+   ],
+   "note_html": "<p>La metà di sopra, con il filetto interno e la svasatura all'imbocco. Una rete di finestrelle quasi quadrate (lato circa 4 mm, nervature da 1,8) e un foro Ø14 su ciascun polo, da cui il gatto vede il sonaglio. 10,3 g.</p>"
+  },
+  {
+   "id": "P04B",
+   "label": "Griglia · vite",
+   "group": "Griglia",
+   "file": "stl/P04_Griglia_Vite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "matrix": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "assembled_bounds": [
+    [
+     77.57,
+     132.43
+    ],
+    [
+     -27.43,
+     27.43
+    ],
+    [
+     0,
+     31.37
+    ]
+   ],
+   "note_html": "<p>La metà di sotto, con il collare filettato, il cono a 45° e la spalla che batte sulla madrevite. Si stampa capovolta, collare sul piatto. 9,5 g.</p>"
+  },
+  {
+   "id": "P05A",
+   "label": "Fessure · madrevite",
+   "group": "Fessure",
+   "file": "stl/P05_Fessure_Madrevite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "assembled_bounds": [
+    [
+     -132.5,
+     -77.5
+    ],
+    [
+     -97.5,
+     -42.5
+    ],
+    [
+     25.5,
+     55.0
+    ]
+   ],
+   "note_html": "<p>La metà di sopra, con il filetto interno e la svasatura all'imbocco. Sei fessure lunghe a meridiano e sei corte in mezzo, larghe 5,5 mm: la pallina verde. 11,5 g.</p>"
+  },
+  {
+   "id": "P05B",
+   "label": "Fessure · vite",
+   "group": "Fessure",
+   "file": "stl/P05_Fessure_Vite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "matrix": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "assembled_bounds": [
+    [
+     -132.43,
+     -77.57
+    ],
+    [
+     -97.43,
+     -42.57
+    ],
+    [
+     0,
+     32.28
+    ]
+   ],
+   "note_html": "<p>La metà di sotto, con il collare filettato, il cono a 45° e la spalla che batte sulla madrevite. Si stampa capovolta, collare sul piatto. 11,3 g.</p>"
+  },
+  {
+   "id": "P06A",
+   "label": "Zampette · madrevite",
+   "group": "Zampette",
+   "file": "stl/P06_Zampette_Madrevite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "assembled_bounds": [
+    [
+     -62.5,
+     -7.5
+    ],
+    [
+     -97.5,
+     -42.5
+    ],
+    [
+     25.5,
+     54.91
+    ]
+   ],
+   "note_html": "<p>La metà di sopra, con il filetto interno e la svasatura all'imbocco. Impronte di zampa di gatto: un cuscinetto e quattro dita, cinque impronte in giro più una sul polo, su entrambe le metà. 13,1 g.</p>"
+  },
+  {
+   "id": "P06B",
+   "label": "Zampette · vite",
+   "group": "Zampette",
+   "file": "stl/P06_Zampette_Vite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "matrix": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "assembled_bounds": [
+    [
+     -62.43,
+     -7.57
+    ],
+    [
+     -97.43,
+     -42.57
+    ],
+    [
+     0,
+     32.19
+    ]
+   ],
+   "note_html": "<p>La metà di sotto, con il collare filettato, il cono a 45° e la spalla che batte sulla madrevite. Si stampa capovolta, collare sul piatto. 13,1 g.</p>"
+  },
+  {
+   "id": "P07A",
+   "label": "Pesciolini · madrevite",
+   "group": "Pesciolini",
+   "file": "stl/P07_Pesciolini_Madrevite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "assembled_bounds": [
+    [
+     7.5,
+     62.5
+    ],
+    [
+     -97.5,
+     -42.5
+    ],
+    [
+     25.5,
+     55.0
+    ]
+   ],
+   "note_html": "<p>La metà di sopra, con il filetto interno e la svasatura all'imbocco. Sagome di pesce che nuotano in due file opposte, con tre bolle sul polo. 12,3 g.</p>"
+  },
+  {
+   "id": "P07B",
+   "label": "Pesciolini · vite",
+   "group": "Pesciolini",
+   "file": "stl/P07_Pesciolini_Vite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "matrix": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "assembled_bounds": [
+    [
+     7.57,
+     62.43
+    ],
+    [
+     -97.43,
+     -42.57
+    ],
+    [
+     0,
+     32.28
+    ]
+   ],
+   "note_html": "<p>La metà di sotto, con il collare filettato, il cono a 45° e la spalla che batte sulla madrevite. Si stampa capovolta, collare sul piatto. 12,3 g.</p>"
+  },
+  {
+   "id": "P08A",
+   "label": "Stelle · madrevite",
+   "group": "Stelle",
+   "file": "stl/P08_Stelle_Madrevite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "assembled_bounds": [
+    [
+     77.5,
+     132.5
+    ],
+    [
+     -97.5,
+     -42.5
+    ],
+    [
+     25.5,
+     55.0
+    ]
+   ],
+   "note_html": "<p>La metà di sopra, con il filetto interno e la svasatura all'imbocco. Stelle a cinque punte sparse e ruotate a caso. 13,6 g.</p>"
+  },
+  {
+   "id": "P08B",
+   "label": "Stelle · vite",
+   "group": "Stelle",
+   "file": "stl/P08_Stelle_Vite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "matrix": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "assembled_bounds": [
+    [
+     77.57,
+     132.43
+    ],
+    [
+     -97.43,
+     -42.57
+    ],
+    [
+     0,
+     32.28
+    ]
+   ],
+   "note_html": "<p>La metà di sotto, con il collare filettato, il cono a 45° e la spalla che batte sulla madrevite. Si stampa capovolta, collare sul piatto. 13,3 g.</p>"
+  },
+  {
+   "id": "P09A",
+   "label": "Cuori · madrevite",
+   "group": "Cuori",
+   "file": "stl/P09_Cuori_Madrevite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "assembled_bounds": [
+    [
+     -132.5,
+     -77.5
+    ],
+    [
+     -167.5,
+     -112.5
+    ],
+    [
+     25.5,
+     55.0
+    ]
+   ],
+   "note_html": "<p>La metà di sopra, con il filetto interno e la svasatura all'imbocco. Cuori disposti sulla spirale aurea, tutti con la punta verso il giunto. 12,9 g.</p>"
+  },
+  {
+   "id": "P09B",
+   "label": "Cuori · vite",
+   "group": "Cuori",
+   "file": "stl/P09_Cuori_Vite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "matrix": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "assembled_bounds": [
+    [
+     -132.43,
+     -77.57
+    ],
+    [
+     -167.43,
+     -112.57
+    ],
+    [
+     0,
+     32.28
+    ]
+   ],
+   "note_html": "<p>La metà di sotto, con il collare filettato, il cono a 45° e la spalla che batte sulla madrevite. Si stampa capovolta, collare sul piatto. 12,6 g.</p>"
+  },
+  {
+   "id": "P10A",
+   "label": "Topolini · madrevite",
+   "group": "Topolini",
+   "file": "stl/P10_Topolini_Madrevite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "assembled_bounds": [
+    [
+     -62.5,
+     -7.5
+    ],
+    [
+     -167.5,
+     -112.5
+    ],
+    [
+     25.5,
+     55.0
+    ]
+   ],
+   "note_html": "<p>La metà di sopra, con il filetto interno e la svasatura all'imbocco. Teste di topolino: una testa tonda e due orecchie, ognuna un foro a sé. 13,7 g.</p>"
+  },
+  {
+   "id": "P10B",
+   "label": "Topolini · vite",
+   "group": "Topolini",
+   "file": "stl/P10_Topolini_Vite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "matrix": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "assembled_bounds": [
+    [
+     -62.43,
+     -7.57
+    ],
+    [
+     -167.43,
+     -112.57
+    ],
+    [
+     0,
+     32.28
+    ]
+   ],
+   "note_html": "<p>La metà di sotto, con il collare filettato, il cono a 45° e la spalla che batte sulla madrevite. Si stampa capovolta, collare sul piatto. 13,4 g.</p>"
+  },
+  {
+   "id": "P11A",
+   "label": "Lische · madrevite",
+   "group": "Lische",
+   "file": "stl/P11_Lische_Madrevite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "assembled_bounds": [
+    [
+     7.5,
+     62.5
+    ],
+    [
+     -167.5,
+     -112.5
+    ],
+    [
+     25.5,
+     54.97
+    ]
+   ],
+   "note_html": "<p>La metà di sopra, con il filetto interno e la svasatura all'imbocco. Lische di pesce: spina, testa, coda e tre coppie di costole; quattro in giro e una sul polo. 13,2 g.</p>"
+  },
+  {
+   "id": "P11B",
+   "label": "Lische · vite",
+   "group": "Lische",
+   "file": "stl/P11_Lische_Vite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "matrix": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "assembled_bounds": [
+    [
+     7.57,
+     62.43
+    ],
+    [
+     -167.43,
+     -112.57
+    ],
+    [
+     0,
+     32.25
+    ]
+   ],
+   "note_html": "<p>La metà di sotto, con il collare filettato, il cono a 45° e la spalla che batte sulla madrevite. Si stampa capovolta, collare sul piatto. 13,2 g.</p>"
+  },
+  {
+   "id": "P12A",
+   "label": "NidoApe · madrevite",
+   "group": "NidoApe",
+   "file": "stl/P12_NidoApe_Madrevite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "assembled_bounds": [
+    [
+     77.5,
+     132.5
+    ],
+    [
+     -167.5,
+     -112.5
+    ],
+    [
+     25.5,
+     55.0
+    ]
+   ],
+   "note_html": "<p>La metà di sopra, con il filetto interno e la svasatura all'imbocco. Nido d'ape: le celle della spirale aurea vengono quasi tutte esagoni. 9,6 g.</p>"
+  },
+  {
+   "id": "P12B",
+   "label": "NidoApe · vite",
+   "group": "NidoApe",
+   "file": "stl/P12_NidoApe_Vite.stl",
+   "print": "meta",
+   "mode": "mesh",
+   "max_triangles": 7000,
+   "matrix": [
+    [
+     1,
+     0,
+     0
+    ],
+    [
+     0,
+     -1,
+     0
+    ],
+    [
+     0,
+     0,
+     -1
+    ]
+   ],
+   "assembled_bounds": [
+    [
+     77.57,
+     132.43
+    ],
+    [
+     -167.43,
+     -112.57
+    ],
+    [
+     0,
+     32.27
+    ]
+   ],
+   "note_html": "<p>La metà di sotto, con il collare filettato, il cono a 45° e la spalla che batte sulla madrevite. Si stampa capovolta, collare sul piatto. 8,9 g.</p>"
+  },
+  {
+   "id": "P13",
+   "label": "Elica (pezzo unico)",
+   "group": "Elica",
+   "file": "stl/P13_Elica.stl",
+   "print": "unici",
+   "mode": "mesh",
+   "max_triangles": 10000,
+   "assembled_bounds": [
+    [
+     -132.5,
+     -77.5
+    ],
+    [
+     -237.5,
+     -182.5
+    ],
+    [
+     1.2,
+     55.0
+    ]
+   ],
+   "note_html": "<p>Pezzo unico: dodici fessure che si avvolgono di mezzo giro da un polo all'altro, attraverso l'equatore. Una vite le spezzerebbe. 12 fori, nervature di almeno 2,0 mm, foro più largo 3,8 mm. Sul fondo un piano d'appoggio e una calotta piena per l'adesione. Pausa per il sonaglio a 19,2 mm. 15,0 g di PETG.</p>"
+  },
+  {
+   "id": "P14",
+   "label": "Rete (pezzo unico)",
+   "group": "Rete",
+   "file": "stl/P14_Rete.stl",
+   "print": "unici",
+   "mode": "mesh",
+   "max_triangles": 10000,
+   "assembled_bounds": [
+    [
+     -62.36,
+     -7.640000000000001
+    ],
+    [
+     -237.36,
+     -182.64
+    ],
+    [
+     1.2,
+     55.0
+    ]
+   ],
+   "note_html": "<p>Pezzo unico: rombi fra due famiglie di lossodromiche che si incrociano, sempre più piccoli verso i poli. Una vite taglierebbe la rete a metà. 160 fori, nervature di almeno 2,1 mm, foro più largo 5,4 mm. Sul fondo un piano d'appoggio e una calotta piena per l'adesione. Pausa per il sonaglio a 19,2 mm. 17,4 g di PETG.</p>"
+  },
+  {
+   "id": "P15",
+   "label": "Sonaglio",
+   "group": "Sonaglio",
+   "file": "stl/P15_Sonaglio.stl",
+   "print": "sonaglio",
+   "quantity": 14,
+   "mode": "mesh",
+   "max_triangles": 1200,
+   "assembled_bounds": [
+    [
+     -44.0,
+     -26.0
+    ],
+    [
+     -79.0,
+     -61.0
+    ],
+    [
+     2.8,
+     19.8
+    ]
+   ],
+   "instances": [
+    [
+     0.0,
+     0.0,
+     0
+    ],
+    [
+     0.0,
+     70.0,
+     0
+    ],
+    [
+     -70.0,
+     70.0,
+     0
+    ],
+    [
+     70.0,
+     70.0,
+     0
+    ],
+    [
+     140.0,
+     70.0,
+     0
+    ],
+    [
+     -70.0,
+     0.0,
+     0
+    ],
+    [
+     70.0,
+     0.0,
+     0
+    ],
+    [
+     140.0,
+     0.0,
+     0
+    ],
+    [
+     -70.0,
+     -70.0,
+     0
+    ],
+    [
+     0.0,
+     -70.0,
+     0
+    ],
+    [
+     70.0,
+     -70.0,
+     0
+    ],
+    [
+     140.0,
+     -70.0,
+     0
+    ],
+    [
+     -70.0,
+     -140.0,
+     0
+    ],
+    [
+     0.0,
+     -140.0,
+     0
+    ]
+   ],
+   "note_html": "<p>Pallina piena Ø18 con un piano d'appoggio: una per ogni pallina. È più grande di tutti i fori (il più largo è nella Voronoi, Ø14,8), quindi non esce. 3,8 g.</p>"
+  }
+ ],
+ "steps_section": {
+  "eyebrow": "01 / Montaggio",
+  "h2": "Sonaglio dentro, poi si avvita.",
+  "intro_html": "Le 11 palline a vite si montano tutte allo stesso modo: nei passaggi c'è la Zampette come esempio. Niente colla e niente attrezzi, così si apre per lavarla o cambiare il sonaglio.",
+  "start_html": "<h3>Prima prova un filetto.</h3><p>Stampa una sola coppia e avvitala: deve entrare a mano per due giri e fermarsi quando il bordo della madrevite tocca la spalla. Se è dura o lasca, vedi la nota nella sezione Stampa prima di stampare le altre.</p>"
+ },
+ "steps": [
+  {
+   "title": "Metti il sonaglio nella vite",
+   "short": "dall'alto",
+   "text": "Appoggia la metà P06B con il collare in alto e lascia cadere dentro il sonaglio P15: il foro del collare è Ø43,2, passa largo.",
+   "parts": [
+    "P06B",
+    "P15"
+   ],
+   "built": [
+    "P06B",
+    "P15"
+   ],
+   "moving": [
+    "P15"
+   ],
+   "dir": [
+    0,
+    0,
+    1
+   ],
+   "travel": 45
+  },
+  {
+   "title": "Avvita la madrevite",
+   "short": "2 giri · senso orario",
+   "text": "Appoggia P06A sul collare, gira un poco all'indietro finché senti il filetto scattare in sede, poi avvita in senso orario per circa due giri. Si ferma quando il bordo piano tocca la spalla: non serve stringere.",
+   "parts": [
+    "P06A",
+    "P06B"
+   ],
+   "built": [
+    "P06A",
+    "P06B",
+    "P15"
+   ],
+   "moving": [
+    "P06A"
+   ],
+   "dir": [
+    0,
+    0,
+    1
+   ],
+   "travel": 30
+  },
+  {
+   "title": "Voronoi, Elica, Rete: sonaglio in stampa",
+   "short": "pausa a 19,2 mm",
+   "text": "P02, P13 e P14 non si aprono. Nello slicer aggiungi una pausa al primo strato sopra 19,2 mm; quando la stampante si ferma, lascia cadere il sonaglio sul fondo della cavità (rotola al centro) e fai ripartire la stampa. A quella quota la testina passa già sopra il sonaglio.",
+   "parts": [
+    "P02",
+    "P15·2"
+   ],
+   "built": [
+    "P02",
+    "P15·2"
+   ]
+  },
+  {
+   "title": "Controllo",
+   "short": "prima di darla al gatto",
+   "text": "Scuoti ogni pallina: il sonaglio deve correre libero. Togli fili e sbavature dai bordi dei fori e controlla che le due metà siano avvitate fino in fondo.",
+   "parts": [
+    "P01A",
+    "P01B",
+    "P02",
+    "P03A",
+    "P03B",
+    "P04A",
+    "P04B",
+    "P05A",
+    "P05B",
+    "P06A",
+    "P06B",
+    "P07A",
+    "P07B",
+    "P08A",
+    "P08B",
+    "P09A",
+    "P09B",
+    "P10A",
+    "P10B",
+    "P11A",
+    "P11B",
+    "P12A",
+    "P12B",
+    "P13",
+    "P14",
+    "P15",
+    "P15·2",
+    "P15·3",
+    "P15·4",
+    "P15·5",
+    "P15·6",
+    "P15·7",
+    "P15·8",
+    "P15·9",
+    "P15·10",
+    "P15·11",
+    "P15·12",
+    "P15·13",
+    "P15·14"
+   ]
+  }
+ ],
+ "print": {
+  "eyebrow": "03 / Stampa",
+  "h2": "22 mezze sfere, tre palline intere, 14 sonagli.",
+  "common_html": "<b>Profilo comune:</b> Kobra S1, ugello 0,4 mm, PETG, strato 0,20 mm. Sono parametri che <b>propongo io, da verificare</b>: nessuna pallina è ancora stata stampata. STL in millimetri, scala 100%, già appoggiati a Z = 0 e orientati per la stampa.",
+  "profiles": [
+   {
+    "key": "meta",
+    "title": "Metà a vite (P..A / P..B)",
+    "rows": [
+     [
+      "Orientamento",
+      "bordo sul piatto (la vite capovolta, collare sul piatto)"
+     ],
+     [
+      "Pareti",
+      "6 (parete tutta piena)"
+     ],
+     [
+      "Supporti",
+      "no"
+     ],
+     [
+      "Compensazione zampa d'elefante",
+      "0,15 mm"
+     ],
+     [
+      "Ingombro",
+      "55 × 55 × 30–32 mm"
+     ]
+    ],
+    "why": "Col bordo in basso ogni metà è una cupola: le pareti salgono rientrando, il cielo vicino al polo si chiude a piccoli cerchi e sopra i fori c'è al massimo un arco di pochi millimetri. Il filetto ha i fianchi a circa 50° e l'imbocco a 45°, quindi niente supporti. La parete è 2,4 mm: con 6 pareti diventa tutta perimetro, più robusta ai morsi e alle unghie. Sulla vite il filetto parte dal piatto: la compensazione evita che il primo giro si allarghi e indurisca l'avvitamento.",
+    "summary": "bordo sul piatto · 6 pareti · senza supporti"
+   },
+   {
+    "key": "unici",
+    "title": "P02, P13, P14 · pezzi unici",
+    "rows": [
+     [
+      "Orientamento",
+      "piano d'appoggio sul piatto"
+     ],
+     [
+      "Pareti",
+      "6"
+     ],
+     [
+      "Supporti",
+      "ad albero, solo dal piatto"
+     ],
+     [
+      "Pausa",
+      "al primo strato sopra 19,2 mm, per il sonaglio"
+     ],
+     [
+      "Ingombro",
+      "55 × 55 × 53,8 mm"
+     ]
+    ],
+    "why": "Una sfera intera ha sotto una calotta che sporge oltre i 45°: servono supporti, ma solo da fuori, perché dentro non si potrebbero togliere. Fori e fessure della metà alta si chiudono ad arco e stanno su da sole. Il fondo è pieno per 5 mm, così la pallina aderisce bene. La pausa va appena sopra la cima del sonaglio appoggiato sul fondo.",
+    "summary": "supporti ad albero dal piatto · pausa a 19,2 mm"
+   },
+   {
+    "key": "sonaglio",
+    "title": "P15 · sonaglio",
+    "rows": [
+     [
+      "Orientamento",
+      "piano sul piatto"
+     ],
+     [
+      "Pareti",
+      "3"
+     ],
+     [
+      "Riempimento",
+      "40%"
+     ],
+     [
+      "Supporti",
+      "no"
+     ],
+     [
+      "Copie",
+      "14"
+     ]
+    ],
+    "why": "Più pesante suona meglio. Il piano d'appoggio è Ø8: la sfera sopra sporge un poco ma così piccola si stampa senza supporti, e i segni non si vedono perché sta dentro.",
+    "summary": "40% · 14 copie"
+   }
+  ],
+  "note_html": "Il filetto ha 0,35 mm di gioco sul raggio. Se è troppo duro o troppo lasco cambia <code>TH_GAP</code> in <code>blender/costruisci.py</code> e rigenera. Diametro, parete e sonaglio sono in cima allo stesso script (<code>R</code>, <code>WALL</code>, <code>BALL_R</code>): lo script controlla da solo che il sonaglio resti più grande di ogni foro e lo scrive in <code>dati/geometria.json</code>."
+ },
+ "notes": {
+  "eyebrow": "04 / Il giunto",
+  "h2": "Collare, madrevite, battuta.",
+  "nav": "Giunto",
+  "cards": [
+   {
+    "title": "Sezione del giunto",
+    "html": "<p>La vite ha un collare filettato con sotto un cono a 45° e una spalla; la madrevite ha la svasatura a 45° che fa da invito e un bordo piano largo 0,8 mm che batte sulla spalla. Il filetto è trapezoidale, destro, e la vite non tocca il fondo: l'avvitamento si ferma sulla battuta.</p><svg viewBox='0 0 380 230' xmlns='http://www.w3.org/2000/svg' font-size='11' font-family='sans-serif'><polygon points='121.0,115.0 121.5,107.3 121.8,99.6 122.0,91.9 122.0,84.2 121.9,76.5 121.6,68.8 121.1,61.1 120.5,53.5 119.8,45.8 118.9,38.2 117.8,30.5 48.8,-75.1 52.0,-68.8 55.0,-62.5 57.9,-56.1 60.7,-49.6 63.4,-43.1 65.9,-36.6 68.4,-30.0 63.9,8.9 63.9,69.1 109.8,115.0' fill='#f08c00' opacity='.85'/><polygon points='121.0,115.0 105.6,115.0 73.7,83.1 60.4,83.1 60.4,20.1 39.4,20.1 39.4,83.1 71.6,143.0 74.5,185.0 109.3,185.0' fill='#c2410c' opacity='.8'/><path d='M60.4,78.9 L73.0,70.5 L73.0,62.1 L60.4,53.7 M60.4,43.9 L73.0,35.5 L73.0,27.1 L60.4,18.7' fill='none' stroke='#c2410c' stroke-width='2'/><line x1='0' y1='115.0' x2='380' y2='115.0' stroke='#888' stroke-dasharray='4 3'/><text x='200' y='30'>madrevite (sopra)</text><text x='200' y='46'>filetto interno Ø48,7</text><text x='200' y='150'>vite (sotto)</text><text x='200' y='166'>collare Ø48,0 · passo 2,5</text><text x='200' y='182'>profondità 0,9 · 2 giri</text><text x='200' y='198'>gioco radiale 0,35</text><text x='200' y='109.0'>giunto, 2,0 mm sotto l'equatore</text><text x='200' y='214'>svasatura 45° · battuta 0,8 mm</text></svg>"
+   },
+   {
+    "title": "Il gatto",
+    "html": "<p>Il sonaglio non esce da nessun foro e le nervature più sottili sono di 1,8 mm (Griglia, Lische). Controlla le palline ogni tanto: se una nervatura si crepa o il gatto la mastica, buttala, perché una pallina rotta può avere spigoli taglienti. I fori vanno da 5 a 15 mm: le unghie non restano agganciate.</p>"
+   }
+  ]
+ },
+ "files": {
+  "h2": "I file.",
+  "intro_html": "Gli STL sono in <code>stl/</code>; la scena e lo script che li genera in <code>blender/</code>.",
+  "links": [
+   {
+    "label": "README",
+    "href": "README.md"
+   },
+   {
+    "label": "Scena Blender",
+    "href": "blender/Palline_Traforate.blend"
+   },
+   {
+    "label": "Script di costruzione",
+    "href": "blender/costruisci.py"
+   },
+   {
+    "label": "Misure e controlli",
+    "href": "dati/geometria.json"
+   },
+   {
+    "label": "Foto di riferimento",
+    "href": "originale/riferimento_palline.jpg"
+   }
+  ]
+ },
+ "footer_html": "Guida offline: aprire questo file dalla cartella del progetto."
+}

@@ -1,0 +1,625 @@
+{
+ "diametro_mm": 55.0,
+ "parete_mm": 2.4,
+ "sonaglio_d_mm": 18.0,
+ "giunto": {
+  "quota_mm": -2.0,
+  "passo_mm": 2.5,
+  "profondita_mm": 0.9,
+  "lunghezza_mm": 5.0,
+  "gioco_radiale_mm": 0.35,
+  "svasatura_mm": 2.28,
+  "distanza_min_mm": 0.0
+ },
+ "pezzi": {
+  "P01_Spirale_Madrevite": {
+   "min": [
+    -27.5,
+    -27.5,
+    0.0
+   ],
+   "max": [
+    27.5,
+    27.5,
+    29.5
+   ],
+   "size": [
+    55.0,
+    55.0,
+    29.5
+   ],
+   "volume_mm3": 8248,
+   "peso_PETG_g": 10.5,
+   "non_manifold_edges": 0
+  },
+  "P01_Spirale_Vite": {
+   "min": [
+    -27.43,
+    -27.43,
+    -0.0
+   ],
+   "max": [
+    27.43,
+    27.43,
+    32.28
+   ],
+   "size": [
+    54.85,
+    54.85,
+    32.28
+   ],
+   "volume_mm3": 7709,
+   "peso_PETG_g": 9.8,
+   "non_manifold_edges": 0
+  },
+  "P02_Voronoi": {
+   "min": [
+    -27.46,
+    -27.5,
+    0.0
+   ],
+   "max": [
+    27.48,
+    27.4,
+    53.8
+   ],
+   "size": [
+    54.94,
+    54.9,
+    53.8
+   ],
+   "volume_mm3": 8439,
+   "peso_PETG_g": 10.7,
+   "non_manifold_edges": 0
+  },
+  "P03_Anelli_Madrevite": {
+   "min": [
+    -27.5,
+    -27.5,
+    0.0
+   ],
+   "max": [
+    27.5,
+    27.5,
+    29.5
+   ],
+   "size": [
+    55.0,
+    55.0,
+    29.5
+   ],
+   "volume_mm3": 8218,
+   "peso_PETG_g": 10.4,
+   "non_manifold_edges": 0
+  },
+  "P03_Anelli_Vite": {
+   "min": [
+    -27.43,
+    -27.43,
+    -0.0
+   ],
+   "max": [
+    27.43,
+    27.43,
+    32.28
+   ],
+   "size": [
+    54.85,
+    54.85,
+    32.28
+   ],
+   "volume_mm3": 7516,
+   "peso_PETG_g": 9.5,
+   "non_manifold_edges": 0
+  },
+  "P04_Griglia_Madrevite": {
+   "min": [
+    -27.5,
+    -27.5,
+    0.0
+   ],
+   "max": [
+    27.5,
+    27.5,
+    28.6
+   ],
+   "size": [
+    55.0,
+    55.0,
+    28.6
+   ],
+   "volume_mm3": 8087,
+   "peso_PETG_g": 10.3,
+   "non_manifold_edges": 0
+  },
+  "P04_Griglia_Vite": {
+   "min": [
+    -27.43,
+    -27.43,
+    -0.0
+   ],
+   "max": [
+    27.43,
+    27.43,
+    31.37
+   ],
+   "size": [
+    54.85,
+    54.85,
+    31.37
+   ],
+   "volume_mm3": 7469,
+   "peso_PETG_g": 9.5,
+   "non_manifold_edges": 0
+  },
+  "P05_Fessure_Madrevite": {
+   "min": [
+    -27.5,
+    -27.5,
+    0.0
+   ],
+   "max": [
+    27.5,
+    27.5,
+    29.5
+   ],
+   "size": [
+    55.0,
+    55.0,
+    29.5
+   ],
+   "volume_mm3": 9082,
+   "peso_PETG_g": 11.5,
+   "non_manifold_edges": 0
+  },
+  "P05_Fessure_Vite": {
+   "min": [
+    -27.43,
+    -27.43,
+    -0.0
+   ],
+   "max": [
+    27.43,
+    27.43,
+    32.28
+   ],
+   "size": [
+    54.85,
+    54.85,
+    32.28
+   ],
+   "volume_mm3": 8888,
+   "peso_PETG_g": 11.3,
+   "non_manifold_edges": 0
+  },
+  "P06_Zampette_Madrevite": {
+   "min": [
+    -27.5,
+    -27.5,
+    0.0
+   ],
+   "max": [
+    27.5,
+    27.5,
+    29.41
+   ],
+   "size": [
+    55.0,
+    55.0,
+    29.41
+   ],
+   "volume_mm3": 10307,
+   "peso_PETG_g": 13.1,
+   "non_manifold_edges": 0
+  },
+  "P06_Zampette_Vite": {
+   "min": [
+    -27.43,
+    -27.43,
+    -0.0
+   ],
+   "max": [
+    27.43,
+    27.43,
+    32.19
+   ],
+   "size": [
+    54.85,
+    54.85,
+    32.19
+   ],
+   "volume_mm3": 10300,
+   "peso_PETG_g": 13.1,
+   "non_manifold_edges": 0
+  },
+  "P07_Pesciolini_Madrevite": {
+   "min": [
+    -27.5,
+    -27.5,
+    0.0
+   ],
+   "max": [
+    27.5,
+    27.5,
+    29.5
+   ],
+   "size": [
+    55.0,
+    55.0,
+    29.5
+   ],
+   "volume_mm3": 9679,
+   "peso_PETG_g": 12.3,
+   "non_manifold_edges": 0
+  },
+  "P07_Pesciolini_Vite": {
+   "min": [
+    -27.43,
+    -27.43,
+    -0.0
+   ],
+   "max": [
+    27.43,
+    27.43,
+    32.28
+   ],
+   "size": [
+    54.85,
+    54.85,
+    32.28
+   ],
+   "volume_mm3": 9672,
+   "peso_PETG_g": 12.3,
+   "non_manifold_edges": 0
+  },
+  "P08_Stelle_Madrevite": {
+   "min": [
+    -27.5,
+    -27.5,
+    0.0
+   ],
+   "max": [
+    27.5,
+    27.5,
+    29.5
+   ],
+   "size": [
+    55.0,
+    55.0,
+    29.5
+   ],
+   "volume_mm3": 10698,
+   "peso_PETG_g": 13.6,
+   "non_manifold_edges": 0
+  },
+  "P08_Stelle_Vite": {
+   "min": [
+    -27.43,
+    -27.43,
+    -0.0
+   ],
+   "max": [
+    27.43,
+    27.43,
+    32.28
+   ],
+   "size": [
+    54.85,
+    54.85,
+    32.28
+   ],
+   "volume_mm3": 10487,
+   "peso_PETG_g": 13.3,
+   "non_manifold_edges": 0
+  },
+  "P09_Cuori_Madrevite": {
+   "min": [
+    -27.5,
+    -27.5,
+    0.0
+   ],
+   "max": [
+    27.5,
+    27.5,
+    29.5
+   ],
+   "size": [
+    55.0,
+    55.0,
+    29.5
+   ],
+   "volume_mm3": 10151,
+   "peso_PETG_g": 12.9,
+   "non_manifold_edges": 0
+  },
+  "P09_Cuori_Vite": {
+   "min": [
+    -27.43,
+    -27.43,
+    -0.0
+   ],
+   "max": [
+    27.43,
+    27.43,
+    32.28
+   ],
+   "size": [
+    54.85,
+    54.85,
+    32.28
+   ],
+   "volume_mm3": 9936,
+   "peso_PETG_g": 12.6,
+   "non_manifold_edges": 0
+  },
+  "P10_Topolini_Madrevite": {
+   "min": [
+    -27.5,
+    -27.5,
+    0.0
+   ],
+   "max": [
+    27.5,
+    27.5,
+    29.5
+   ],
+   "size": [
+    55.0,
+    55.0,
+    29.5
+   ],
+   "volume_mm3": 10772,
+   "peso_PETG_g": 13.7,
+   "non_manifold_edges": 0
+  },
+  "P10_Topolini_Vite": {
+   "min": [
+    -27.43,
+    -27.43,
+    -0.0
+   ],
+   "max": [
+    27.43,
+    27.43,
+    32.28
+   ],
+   "size": [
+    54.85,
+    54.85,
+    32.28
+   ],
+   "volume_mm3": 10556,
+   "peso_PETG_g": 13.4,
+   "non_manifold_edges": 0
+  },
+  "P11_Lische_Madrevite": {
+   "min": [
+    -27.5,
+    -27.5,
+    0.0
+   ],
+   "max": [
+    27.5,
+    27.5,
+    29.47
+   ],
+   "size": [
+    55.0,
+    55.0,
+    29.47
+   ],
+   "volume_mm3": 10414,
+   "peso_PETG_g": 13.2,
+   "non_manifold_edges": 0
+  },
+  "P11_Lische_Vite": {
+   "min": [
+    -27.43,
+    -27.43,
+    -0.0
+   ],
+   "max": [
+    27.43,
+    27.43,
+    32.25
+   ],
+   "size": [
+    54.85,
+    54.85,
+    32.25
+   ],
+   "volume_mm3": 10408,
+   "peso_PETG_g": 13.2,
+   "non_manifold_edges": 0
+  },
+  "P12_NidoApe_Madrevite": {
+   "min": [
+    -27.5,
+    -27.5,
+    0.0
+   ],
+   "max": [
+    27.5,
+    27.5,
+    29.5
+   ],
+   "size": [
+    55.0,
+    55.0,
+    29.5
+   ],
+   "volume_mm3": 7598,
+   "peso_PETG_g": 9.6,
+   "non_manifold_edges": 0
+  },
+  "P12_NidoApe_Vite": {
+   "min": [
+    -27.43,
+    -27.43,
+    -0.0
+   ],
+   "max": [
+    27.43,
+    27.43,
+    32.27
+   ],
+   "size": [
+    54.85,
+    54.85,
+    32.27
+   ],
+   "volume_mm3": 7043,
+   "peso_PETG_g": 8.9,
+   "non_manifold_edges": 0
+  },
+  "P13_Elica": {
+   "min": [
+    -27.5,
+    -27.5,
+    0.0
+   ],
+   "max": [
+    27.5,
+    27.5,
+    53.8
+   ],
+   "size": [
+    55.0,
+    55.0,
+    53.8
+   ],
+   "volume_mm3": 11782,
+   "peso_PETG_g": 15.0,
+   "non_manifold_edges": 0
+  },
+  "P14_Rete": {
+   "min": [
+    -27.36,
+    -27.36,
+    0.0
+   ],
+   "max": [
+    27.36,
+    27.36,
+    53.8
+   ],
+   "size": [
+    54.72,
+    54.72,
+    53.8
+   ],
+   "volume_mm3": 13705,
+   "peso_PETG_g": 17.4,
+   "non_manifold_edges": 0
+  },
+  "P15_Sonaglio": {
+   "min": [
+    -9.0,
+    -9.0,
+    0.0
+   ],
+   "max": [
+    9.0,
+    9.0,
+    17.0
+   ],
+   "size": [
+    18.0,
+    18.0,
+    17.0
+   ],
+   "volume_mm3": 3015,
+   "peso_PETG_g": 3.8,
+   "non_manifold_edges": 0
+  }
+ },
+ "fori": {
+  "Spirale": {
+   "n": 20,
+   "max_cerchio_inscritto_mm": 4.74,
+   "nervatura_min_mm": 2.82,
+   "sonaglio_resta_dentro": true
+  },
+  "Voronoi": {
+   "n": 41,
+   "max_cerchio_inscritto_mm": 14.8,
+   "nervatura_min_mm": 2.43,
+   "sonaglio_resta_dentro": true,
+   "pausa_per_sonaglio_mm": 19.2
+  },
+  "Anelli": {
+   "n": 80,
+   "max_cerchio_inscritto_mm": 5.46,
+   "nervatura_min_mm": 2.8,
+   "sonaglio_resta_dentro": true
+  },
+  "Griglia": {
+   "n": 225,
+   "max_cerchio_inscritto_mm": 14.37,
+   "nervatura_min_mm": 1.78,
+   "sonaglio_resta_dentro": true
+  },
+  "Fessure": {
+   "n": 24,
+   "max_cerchio_inscritto_mm": 5.52,
+   "nervatura_min_mm": 2.62,
+   "sonaglio_resta_dentro": true
+  },
+  "Zampette": {
+   "n": 60,
+   "max_cerchio_inscritto_mm": 8.53,
+   "nervatura_min_mm": 1.94,
+   "sonaglio_resta_dentro": true
+  },
+  "Pesciolini": {
+   "n": 28,
+   "max_cerchio_inscritto_mm": 7.2,
+   "nervatura_min_mm": 2.11,
+   "sonaglio_resta_dentro": true
+  },
+  "Stelle": {
+   "n": 24,
+   "max_cerchio_inscritto_mm": 5.33,
+   "nervatura_min_mm": 2.39,
+   "sonaglio_resta_dentro": true
+  },
+  "Cuori": {
+   "n": 17,
+   "max_cerchio_inscritto_mm": 7.08,
+   "nervatura_min_mm": 2.76,
+   "sonaglio_resta_dentro": true
+  },
+  "Topolini": {
+   "n": 33,
+   "max_cerchio_inscritto_mm": 8.38,
+   "nervatura_min_mm": 2.05,
+   "sonaglio_resta_dentro": true
+  },
+  "Lische": {
+   "n": 90,
+   "max_cerchio_inscritto_mm": 3.58,
+   "nervatura_min_mm": 1.84,
+   "sonaglio_resta_dentro": true
+  },
+  "NidoApe": {
+   "n": 106,
+   "max_cerchio_inscritto_mm": 6.65,
+   "nervatura_min_mm": 1.97,
+   "sonaglio_resta_dentro": true
+  },
+  "Elica": {
+   "n": 12,
+   "max_cerchio_inscritto_mm": 3.79,
+   "nervatura_min_mm": 1.98,
+   "sonaglio_resta_dentro": true,
+   "pausa_per_sonaglio_mm": 19.2
+  },
+  "Rete": {
+   "n": 160,
+   "max_cerchio_inscritto_mm": 5.4,
+   "nervatura_min_mm": 2.12,
+   "sonaglio_resta_dentro": true,
+   "pausa_per_sonaglio_mm": 19.2
+  }
+ }
+}
